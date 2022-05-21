@@ -1,5 +1,10 @@
+.body{
+    display: flex;
+    flex-direction: column;
+}
 .header {
     background-color: #1F2937;
+    display: flex;
 }
 .headerleft {
     font-size: 28px;
@@ -7,6 +12,7 @@
 }
 .one{
     background-color: #1F2937;
+    display: flex;
 
 }
 .oneleft .head{
@@ -24,6 +30,10 @@
 .one button {
     background-color: #3882F6;
 }
+.two{
+    display: flex;
+    flex-direction: column;
+}
 .twotop{
     font-size: 36px;
     font-weight: bolder;
@@ -31,16 +41,23 @@
 
 
 }
+.twobuttom{
+    display: flex;
+}
 .three {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
 }
 .quote {
     font-size: 36px;
     font-style: light italic;
     color: #1F2937;
 }
+
 .fourcontainer{
     background-color: #3882F6 ;
+    display: flex;
 }
 .fourright button{
     background-color: #3882F6;
@@ -51,6 +68,8 @@
     background-color: #1F2937;
     font-size: 18px;
     color:  #E5E7EB;
+    display: flex;
+    justify-content: center;
 }
 
 ul {

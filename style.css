@@ -20,8 +20,8 @@
 
 }
 .oneleft{
-    padding-top: 80px;
-    padding-bottom: 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     width: 400px;
     font-size: 18px;
     color:  #E5E7EB;
@@ -36,8 +36,8 @@
 
 
 .oneright{
-   padding-top: 80px;
-   padding-bottom: 80px;
+   margin-top: 80px;
+   margin-bottom: 80px;
 }
 
 .one button {
@@ -52,11 +52,24 @@
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+
 
 
 }
-.twobuttom{
+.twobottom{
     display: flex;
+    justify-content: center;
+    margin-bottom: 80px ;
+    
+    
+
+}
+.twobottom > * {
+    width: 250px;
 }
 .three {
     background-color: #E5E7EB;

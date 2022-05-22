@@ -5,10 +5,12 @@
 .header {
     background-color: #1F2937;
     display: flex;
+    justify-content: space-evenly ;
 }
 .headerleft {
     font-size: 28px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 .one{
     background-color: #1F2937;
@@ -74,6 +76,8 @@
 
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 18px;
     margin: 0;
     padding: 0;
   }
